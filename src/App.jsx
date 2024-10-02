@@ -3,11 +3,7 @@ import TodoList from "./components/TodoList";
 import { useState, useEffect } from "react";
 
 function App() {
-  const [todos, setTodos] = useState([
-    "Go to the store",
-    "Do the laundry",
-    "Finish USThing Application",
-  ]);
+  const [todos, setTodos] = useState([]);
   const [todoValue, setTodoValue] = useState("");
 
   function persistData(newList) {
